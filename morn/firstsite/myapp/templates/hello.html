@@ -1,7 +1,23 @@
 <html>
     <body>
         <h1>
-            Hello, Wassup!
+            <ul>
+                {% for item in data %}
+                    <li>{{item.name}} {{item.greeting}}</li>
+                {% endfor %}
+            </ul>
         </h1>
+        <table>
+            <th>
+                <tr>
+                    <td>Name</td>
+                    <td>Greeting</td>
+                </tr>
+            </th>
+            <tr>
+                <td>Ash</td>
+                <td>Hello</td>
+            </tr>
+        </table>
     </body>
 </html>
