@@ -1,0 +1,37 @@
+[
+    {
+        "model": "firstapp.emp",
+        "fields": {
+            "id": 1,
+            "name": "Amar"
+        }
+    },
+    {
+        "model": "firstapp.emp",
+        "fields": {
+            "id": 2,
+            "name": "Akbar"
+        }
+    },
+    {
+        "model": "firstapp.emp",
+        "fields": {
+            "id": 3,
+            "name": "Anthony"
+        }
+    },
+    {
+        "model": "firstapp.emp",
+        "fields": {
+            "id": 4,
+            "name": "Django"
+        }
+    },
+    {
+        "model": "firstapp.emp",
+        "fields": {
+            "id": 5,
+            "name": "Flask"
+        }
+    }
+]
