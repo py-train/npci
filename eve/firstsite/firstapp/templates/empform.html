@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Emp Search Form</title>
+    </head>
+    <body>
+        <h1>Employee Search Form</h1>
+        <div>
+            <form action="{% url 'empsearch' %}" method="post">
+                {% csrf_token %}
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id"><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </body>
+</html>

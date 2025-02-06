@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h1>
+            <ul>
+                {% for item in data %}
+                    <li>{{item.name}} {{item.greeting}}</li>
+                {% endfor %}
+            </ul>
+        </h1>
+        <table>
+            <th>
+                <tr>
+                    <td>Name</td>
+                    <td>Greeting</td>
+                </tr>
+            </th>
+            {% for item in data %}
+            <tr>
+                <td>{{item.name}}</td>
+                <td>{{item.greeting}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
